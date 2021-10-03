@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #fff;
+}
+
+header {
+    z-index: 1;
+    position: relative;
+    padding-top: 20px;
+}
+
+.nav-col {
+    float: left;
+    width: 95%;
+}
+
+
+.cnt-info-col {
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.menu {
+    float: right;
+    width: 70%;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 22px;
+    display: inline-block;
+    color: #4d4d4d;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    color: #f47514;
+}
+
+.cnt-info-col a {
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-top: 23px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.cnt-info-col a:hover {
+    color: #f47514;
+}
+
+section.header-bg-parent {
+    position: relative;
+    top: -83px;
+}
+
+.header-col1 {
+    float: left;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+}
+
+.header-col2 {
+    float: right;
+    background-image: url(../images/hhhh.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 95%;
+}
+
+
+.header-col1 h5 {
+    color: #3b3663;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.header-col1 h2 {
+    color: #3b3663;
+    font-size: 60px;
+}
+
+.header-col1 h2 {
+    color: #3b3663;
+    font-size: 45px;
+    line-height: 50px;
+    margin: 21px 0px 15px;
+}
+
+.header-col1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px 0px;
+}
+
+button.common-btn {
+    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 800;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+
+button.common-btn:hover {
+    background: linear-gradient(180deg, #6759e8, #8b81ef);
+}
+
+section.header-bg-parent:after {
+    content: "SEO";
+    position: absolute;
+    color: #fafbfc;
+    top: 300px;
+    left: -140px;
+    font-size: 230px;
+    transform: rotate(-90deg);
+    font-family: "Rubik";
+    font-weight: 800;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+.hedaer-bg-par-img {
+    position: absolute;
+    bottom: -110px;
+}
+
+
+.blog-col {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.blog-col span {
+    color: #696687;
+    font-size: 14px;
+    font-family: "Nunito";
+    font-weight: 400;
+    padding: 20px 0px 6px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.blog-col h3 {
+    color: #696687;
+    font-size: 19px;
+    font-family: "Nunito";
+    font-weight: 800;
+    text-align: center;
+}
+
+.blog-col a {
+    color: #ff881f;
+    font-size: 13px;
+    font-family: "Rubik";
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.blog-col a {
+    color: #ff881f;
+    font-size: 13px;
+    font-family: "Rubik";
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.blog-col a:after {
+    content: "\f178";
+    font-family: "FontAwesome";
+    margin-left: -14px;
+    padding-left: 12px;
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+
+.blog-col a:hover:after {
+    visibility: visible;
+    margin-left: 14px;
+}
+
+section#blog {
+    margin: 80px 0px;
+}
+
+.blog-col img {
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.blog-col img:hover {
+    transform: scale(1.1, 1.1);
+}
+.button a {
+    background-color: rgb(12, 153, 209); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+/*Common clasess*/
+
+#mobile-menu {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.common-h5 {
+    color: #3b3663;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.common-h2 {
+    color: #3b3663;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.active {
+    color: #f47514 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito';
+    font-weight: 800;
+    
+}
+
+p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    
+}
+
+#arrow i {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    cursor: pointer;
+    background-color: #f47a14;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+.footer-col {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 45px;
+}
+
+.footer-2-col {
+    position: relative;
+    left: 110px;
+}
+
+.footer-col h3 {
+    color: #3b3663;
+    font-family: "Nunito";
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: #696687;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-col i {
+    color: #fff;
+    background-color: #ff881f;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.social-icons-footer i:hover {
+    transform: translateY(-10px)
+}
+
+.footer-col.footer-2-col ul li {
+    color: #696687;
+    font-family: "Rubik";
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer-col.footer-2-col ul li:hover {
+    padding-left: 5px;
+}
+
+.footer-col.footer-2-col ul {
+    list-style: none;
+}
+
+.footer-col a {
+    color: #696687;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-col span {
+    padding-left: 10px;
+}
+
+p.copyright-footer {
+    text-align: center;
+    font-family: "Rubik";
+    padding: 20px 0px;
+}
+
+hr.footer-hr {
+    margin: 60px 0px 20px;
+}
